@@ -32,13 +32,13 @@
                 <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link" href="#pricing">Pricing</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="contact.html">Contact</a>
               </li>
             </ul>
               <button class="btn btn-sm fw-bold text-white login-btn" type="submit">Login</button>
@@ -88,11 +88,11 @@
 
     <!-- ------------------------------About start----------------------------------- -->
 
-    <section class="about">
+    <section class="about" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
-                    <h3 class="fw-bold">Lorem <b class="head-color">ipsum</b> dolor sit amet</h3>
+                    <h3 class="fw-bold">Who  <b class="head-color">We</b> Are</h3>
                     <p class="para-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed elit turpis. Nulla vel libero vitae lorem consectetur ultrices scelerisque non nisi</p>
                     <p class="para-color">Nulla vel libero vitae lorem consectetur ultrices scelerisque non nisi</p>
                     <button class="btn btn-sm fw-bold button-style">Learn more</button>
@@ -264,43 +264,57 @@
             <div class="testimonial-slider mt-5">
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active d-none d-md-block" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" class=" d-none d-md-block"></button>
                     </div>
                     <div class="carousel-inner">
                       <div class="carousel-item active">
                         <div class="row">
 
 
-                            <div class="col-lg-6 ">
-                              <div class="review-bg">
-                                <div class="d-flex">
-                                  <div class="white-bg">
-                                    <div class="img-bg">
-                                      <img src="images/testimonials/1.png" alt="" class="img-fluid">
+                            <div class="col-lg-6 col-gap">
+                              <div class="testimonial-bg">
+                                <div class="row">
+                                  <div class="col-lg-4">
+                                    <div class="testimonial-img-bg">
+                                      <img src="images/testimonials/1.png" alt="">
                                     </div>
                                   </div>
-                                  <div class="reviews">
-                                    <p class="para-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed elit turpis. Nulla vel libero vitae lorem consectetur ultrices scelerisque non nisi.  Nulla sed elit turpis. Nulla vel libero vitae lorem consectetur ultrices scelerisque non nisi. Nulla sed elit turpis. Nulla vel libero vitae lorem consectetur ultrices scelerisque non nisi.</p>
-                                    <h6 class="head-color">Riya</h6>
-                                    <p class="para-color">Graphic Designer</p>
+                                  <div class="col-lg-8">
+                                    <h6 class="fw-bold">Riya</h6>
+                                    <p class="para-color">Design Assistant</p>
+                                    <div class="review-bg d-flex">
+                                      <i class="fa fa-quote-left quote-icon me-2"></i>
+                                      <p class="para-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed elit turpis. Nulla vel libero vitae lorem consectetur ultrices scelerisque non nisi. </p>
+
+                                    </div>
                                   </div>
-                                </div> 
+                                </div>
+                                
                               </div>
                             </div>
 
 
-                            <div class="col-lg-6">
-                              <div class="d-flex">
-                                <div class="img-bg">
-                                  <img src="images/testimonials/1.png" alt="" class="img-fluid">
+                            <div class="col-lg-6 col-gap ">
+                              <div class="testimonial-bg">
+                                <div class="row">
+                                  <div class="col-lg-4">
+                                    <div class="testimonial-img-bg">
+                                      <img src="images/testimonials/1.png" alt="">
+                                    </div>
+                                  </div>
+                                  <div class="col-lg-8">
+                                    <h6 class="fw-bold">Riya</h6>
+                                    <p class="para-color">Design Assistant</p>
+                                    <div class="review-bg d-flex">
+                                      <i class="fa fa-quote-left quote-icon me-2"></i>
+                                      <p class="para-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed elit turpis. Nulla vel libero vitae lorem consectetur ultrices scelerisque non nisi. </p>
+
+                                    </div>
+                                  </div>
                                 </div>
-                                <div class="reviews">
-                                  <p class="para-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed elit turpis. Nulla vel libero vitae lorem consectetur ultrices scelerisque non nisi. </p>
-                                  <h6 class="head-color">Riya</h6>
-                                  <p class="para-color">Graphic Designer</p>
-                                </div>
-                              </div> 
+                                
+                              </div>
                             </div>
 
 
@@ -310,42 +324,59 @@
                         <div class="row">
 
 
-                          <div class="col-lg-6">
-                            <div class="d-flex">
-                              <div class="img-bg">
-                                <img src="images/testimonials/1.png" alt="" class="img-fluid">
+                          <div class="col-lg-6 col-gap ">
+                            <div class="testimonial-bg">
+                              <div class="row">
+                                <div class="col-lg-4">
+                                  <div class="testimonial-img-bg">
+                                    <img src="images/testimonials/1.png" alt="">
+                                  </div>
+                                </div>
+                                <div class="col-lg-8">
+                                  <h6 class="fw-bold">Riya</h6>
+                                  <p class="para-color">Design Assistant</p>
+                                  <div class="review-bg d-flex">
+                                    <i class="fa fa-quote-left quote-icon me-2"></i>
+                                    <p class="para-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed elit turpis. Nulla vel libero vitae lorem consectetur ultrices scelerisque non nisi. </p>
+
+                                  </div>
+                                </div>
                               </div>
-                              <div class="reviews">
-                                <p class="para-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed elit turpis. Nulla vel libero vitae lorem consectetur ultrices scelerisque non nisi. </p>
-                                <h6 class="head-color">Riya</h6>
-                                <p class="para-color">Graphic Designer</p>
-                              </div>
-                            </div> 
+                              
+                            </div>
                           </div>
 
 
-                          <div class="col-lg-6">
-                            <div class="d-flex">
-                              <div class="img-bg">
-                                <img src="images/testimonials/1.png" alt="" class="img-fluid">
+                          <div class="col-lg-6 col-gap ">
+                            <div class="testimonial-bg">
+                              <div class="row">
+                                <div class="col-lg-4">
+                                  <div class="testimonial-img-bg">
+                                    <img src="images/testimonials/1.png" alt="">
+                                  </div>
+                                </div>
+                                <div class="col-lg-8">
+                                  <h6 class="fw-bold">Riya</h6>
+                                  <p class="para-color">Design Assistant</p>
+                                  <div class="review-bg d-flex">
+                                    <i class="fa fa-quote-left quote-icon me-2"></i>
+                                    <p class="para-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed elit turpis. Nulla vel libero vitae lorem consectetur ultrices scelerisque non nisi. </p>
+
+                                  </div>
+                                </div>
                               </div>
-                              <div class="reviews">
-                                <p class="para-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed elit turpis. Nulla vel libero vitae lorem consectetur ultrices scelerisque non nisi. </p>
-                                <h6 class="head-color">Riya</h6>
-                                <p class="para-color">Graphic Designer</p>
-                              </div>
-                            </div> 
+                              
+                            </div>
                           </div>
 
 
-                      </div>
                       </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <button class="carousel-control-prev d-none d-md-block indicator" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                       <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <button class="carousel-control-next d-none d-md-block indicator" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
                       <span class="carousel-control-next-icon" aria-hidden="true"></span>
                       <span class="visually-hidden">Next</span>
                     </button>
@@ -361,12 +392,12 @@
 
     <!-- ------------------------------pricing start----------------------------------- -->
 
-    <section class="pricing">
+    <section class="pricing" id="pricing">
         <div class="container">
             <h3 class="fw-bold text-center">Choose Your  <b class="head-color">Plan</b></h3>
             <p class="para-color text-center  pricing-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed elit turpis. Nulla vel libero vitae lorem consectetur ultrices scelerisque non nisi</p>
             <div class="row mt-5">
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-gap">
                     <div class="card">
                         <div class="card-body">
                           <h6 class="card-subtitle mb-2 fw-bold text-center head-color">Basic</h6>
@@ -380,7 +411,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-gap">
                     <div class="card">
                         <div class="card-body">
                           <h6 class="card-subtitle mb-2 fw-bold text-center head-color">Basic</h6>
@@ -394,7 +425,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-gap">
                     <div class="card">
                         <div class="card-body">
                           <h6 class="card-subtitle mb-2 fw-bold text-center head-color">Basic</h6>
@@ -408,7 +439,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-gap">
                     <div class="card">
                         <div class="card-body">
                           <h6 class="card-subtitle mb-2 fw-bold text-center head-color">Basic</h6>
