@@ -543,35 +543,35 @@ body{
 
 
 
-/* --------------------------------use-template start------------------------------------ */
+/* --------------------------------save-template start------------------------------------ */
 
-.use-template{
+.save-template{
     margin-top: 200px;
 }
-.use-template form{
+.save-template form{
     width: 500px;
     box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;    
     padding: 50px 30px ;
     border-radius: 22px;
     background-color: #eaf5f1;
 }
-.use-template form input{
+.save-template form input{
     font-size: 13px;
     padding: 15px;
     border-radius: 22px;
     border: 0;
 
 }
-.use-template  img{
+.save-template  img{
     height: 550px;
     width: auto;
 }
 
-.use-template .btn-file {
+.save-template .btn-file {
     position: relative;
     overflow: hidden;
   }
-  .use-template .btn-file input[type=file] {
+  .save-template .btn-file input[type=file] {
     position: absolute;
     top: 0;
     right: 0;
@@ -585,33 +585,33 @@ body{
     cursor: inherit;
     display: block;
   }
-  .use-template .file-input-label {
+  .save-template .file-input-label {
       padding: 0px 10px;
       display: table-cell;
       vertical-align: middle;
     border: 1px solid #ddd;
     border-radius: 4px;
   }
-  .use-template  input[readonly] {
+  .save-template  input[readonly] {
     background-color: white !important;
     cursor: text !important;
   }
-  .use-template .btn-browse{
+  .save-template .btn-browse{
     background-color: #c3d4ce;
     border-radius: 22px;
     font-size: 13px;
     padding-top: 12px;
   }
   @media(max-width: 991px){
-    .use-template form{
+    .save-template form{
         width: 100%;
         margin-bottom: 20px;
     }
-    .use-template{
+    .save-template{
         padding: 15px;
         margin-top: 150PX;
     }
-    .use-template  button{
+    .save-template  button{
         text-decoration: none;
     }
     .input-group{
@@ -619,7 +619,89 @@ body{
     }
   }
 
-/* --------------------------------use-template end------------------------------------ */
+/* --------------------------------save-template end------------------------------------ */
+
+
+
+
+
+/* --------------------------------use-template start------------------------------------ */
+
+.use-template{
+    margin-top: 200px;
+}
+.use-template .search input{
+   justify-content: right;
+   width: 400px;
+   border-left: 0px;
+   border-right: 0px;
+   border-top: 0px;
+   border-radius: 0;
+}
+.use-template .use-template-para{
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+.use-template #flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  .use-template .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .use-template  .column img {
+    vertical-align: middle;
+    margin-top: 8px;
+    filter: grayscale(70%);
+  }
+  
+  .use-template .column:nth-child(even) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .use-template   .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .use-template  .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+
+  .use-template  .pagination {
+    display: inline-block;
+    margin: 0 auto;
+  }
+  .use-template  .pagination a.active, .use-template  .pagination a:focus, .use-template  .pagination a:hover{
+    background-color: #0e9f6a;
+    border-radius: 50%;
+    color: white;
+  }
+  .use-template  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    transition: 0.2s ease;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 auto;
+  }
+/* --------------------------------use-template end ------------------------------------ */
 
 
 
