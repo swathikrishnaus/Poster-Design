@@ -270,6 +270,30 @@ body{
 
 
 
+/* --------------------------------about-us start------------------------------------ */
+
+
+.about-us{
+    margin-top: 200px;
+}
+.about-us .about-us-para{
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+.about-contents{
+    margin-top: 100px;
+}
+
+/* --------------------------------about-us start------------------------------------ */
+
+
+
+
+
+
+
+
 /* --------------------------------how-it-works start------------------------------------ */
 
 .how-it-works{
@@ -344,13 +368,15 @@ body{
 }
 .carousel-control-prev .carousel-control-prev-icon{
     margin-top: 510px;
+    margin-left: 115vh;
     color: #76b9a1;
-    font-size: 30px;
+    font-size: 20px;
 }
 .carousel-control-next .carousel-control-next-icon{
     margin-top: 510px;
     color: #76b9a1;
-    font-size: 30px;
+    font-size: 20px;
+    margin-left: -115vh;
 }
 @media(max-width: 991px){
     .popular-design .popular-design-para{
@@ -386,26 +412,22 @@ body{
 .testimonial  img{
     width: auto;
     height: auto;
-    border-radius: 22px 0px 22px 0px;
+    border-radius: 10px 0px 10px 0px;
     height: 200px;
     background-color: #bae7d7;
     width: auto;
 }
-/* .testimonial .review-bg{
-    border: 1px;
-    border-color: #0e9f6a;
-    padding: 10px;
-    border-radius: 22px;
-    
-    
-} */
+.testimonial h6{
+    color: #0e9f6a;
+}
+.testimonial .review-bg .designation{
+    color: #181717;
+}
 .testimonial .testimonial-bg{
-    border: 1px solid  ;
     padding: 10px;
     background-color: rgb(255, 255, 255);
-    border-color: #6ebea1;
     padding: 15px;
-    border-radius: 22px 0px 22px 0px;
+    border-radius: 20px 0px 20px 0px;
 }
 .testimonial .quote-icon{
     font-size: 40px;
@@ -421,7 +443,6 @@ body{
     border-radius: 50%;
     background-color: #62968a;
 }
-
 @media(max-width: 991px){
    
     .testimonial .reviews{
@@ -473,8 +494,8 @@ body{
 .pricing .card button{
     padding: 10px 40px;
     color: #0e9f6a;
+    border: 2px solid #0e9f6a;
     border-radius: 10px;
-    border-color:  #0e9f6a;
     background-color: transparent;
     transition: 0.3s ease;
     box-shadow: none;
