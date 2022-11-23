@@ -259,6 +259,7 @@ body{
         padding-right: 15px;
         padding-top: 0px;
     }
+   
 }
 
 
@@ -283,6 +284,11 @@ body{
 }
 .about-contents{
     margin-top: 100px;
+}
+@media(max-width: 991px){
+    .about-us .about-us-para{
+        width: auto;
+    }   
 }
 
 /* --------------------------------about-us start------------------------------------ */
@@ -855,4 +861,91 @@ body{
 }
 
 /* --------------------------------contact end------------------------------------ */
+
+
+
+
+
+
+
+
+/* --------------------------------login start------------------------------------ */
+
+.login{
+    margin-top: 200px;
+}
+.login form{
+    width: 500px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding: 50px;
+    border-radius: 15px;
+}
+.login form .forgot-a{
+    text-align: right;
+    display: block;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+.login form .forgot-a:hover{
+    color: #74cead;
+}
+.login form input{
+    border-bottom: 1px solid #0e9f6a;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-radius: 0;
+}
+.login form button{
+    padding: 10px 50px;
+}
+.hr-line {
+    width: 100%;
+    position: relative;
+    margin: 15px;
+    border-bottom: 1px solid rgb(201, 194, 194);
+  }
+  .form .or{
+    margin-top: 50px;
+  }
+  .login .social-icons {
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .login .social-icons img{
+    width: 30px;
+    height: auto;
+  }
+  .login .sign-up-now {
+    text-decoration: none;
+  }
+  .login .sign-up-now:hover{
+    color: #74cead;
+  }
+.login .bottom-links{
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    display: block;
+}
+.login ::placeholder { 
+    color: rgb(211, 211, 211);
+    opacity: 1; /* Firefox */
+  }
+  
+  
+@media(max-width: 991px){
+    .login {
+        padding: 15px;
+        margin-top: 150px;
+    }
+    .login form{
+        width: auto;
+    }
+}
+
+/* --------------------------------login end------------------------------------ */
+
 
