@@ -202,6 +202,9 @@ body{
 .home .home-head-2 {
     margin-top: 130px;
 }
+.home a{
+    text-decoration: none;
+}
 @media(max-width: 991px){
     .home{
         margin-top: 50px;
@@ -223,6 +226,9 @@ body{
     background-color: #eaf5f1;
     padding-top: 90px;
     padding-bottom: 90px;
+}
+.about img{
+    border-radius: 15px;
 }
 .about .card-1{
     width: 300px;
@@ -310,44 +316,34 @@ body{
     text-align: center;
     margin: 0 auto;
 }
-.how-it-works .card{
-    width: 300px;
-    border: 0;
-    border-radius: 22px;
-    padding: 10px;
-    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
-    z-index: -10;
-    
-}
-.how-it-works  .card-up{
-    margin: 0 auto;
-}
-.how-it-works-card{
-    margin: 0 auto;
-    margin-top: 50px;
-}
-.card-up-img{
-    width: 280px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    margin-top: -30px;
-    z-index: 20;
-}
-.card-down-img{
-    width: 280px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    z-index: 20;
-}
-.how-it-works  .card-down{
-    margin: 0 auto;
-    margin-top: -30px;
+.how-it-works iframe{
+    width: 100%;
+    height: 345px;
+    border-radius: 15px;
 }
 @media(max-width: 991px){
+    /* .how-it-works{
+        padding: 10px;
+    } */
+    .how-it-works iframe{
+        width: auto;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+    }
     .how-it-works .woks-para{
-        width: 100%;
+        width: auto;
+    }
+    .how-it-works .card{
+        width: auto;
+    }
+    .card-up-img{
+        width: auto;
+        height: auto;
+    }
+    .card-down-img{
+        width: auto;
+        height: auto;
     }
   
 }
@@ -373,13 +369,13 @@ body{
     border-radius: 10px;
 }
 .carousel-control-prev .carousel-control-prev-icon{
-    margin-top: 510px;
-    margin-left: 115vh;
+    margin-top: 500px;
+    margin-left: 65vh;
     color: #76b9a1;
     font-size: 20px;
 }
 .carousel-control-next .carousel-control-next-icon{
-    margin-top: 510px;
+    margin-top: 500px;
     color: #76b9a1;
     font-size: 20px;
     margin-left: -115vh;
@@ -405,7 +401,7 @@ body{
 /* --------------------------------testimonial start------------------------------------ */
 
 .testimonial{
-    margin-top: 100px;
+    margin-top: 150px;
     background-color: #eaf5f1;
     padding-top: 90px;
     padding-bottom: 145px;
@@ -482,6 +478,16 @@ body{
 .pricing{
     margin-top: 100px;
 }
+.pricing img{
+    width: 70px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 25px;
+    background-color: #f4f7f6;
+    padding: 10px;
+    border-radius: 10px;
+}
 .pricing .pricing-para{
     width: 600px;
     text-align: center;
@@ -491,8 +497,10 @@ body{
     border: 0;
     box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
     padding: 20px;
+    width: 100%;
     height: 100%;
     transition: 0.5s ease;
+    border-radius: 15px;
 }
 .pricing .card:hover, .pricing .card:focus, .pricing .card.active{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -509,6 +517,9 @@ body{
 .pricing .card button:hover{
     background-color: #0e9f6a;
     color: white;
+}
+.pricing .card .date-pricing{
+    font-size: 16px;
 }
 @media(max-width: 991px){
     .pricing {
@@ -699,6 +710,12 @@ body{
     .use-template   .column {
       flex: 50%;
       max-width: 50%;
+    }
+    .use-template .use-template-para{
+        width: auto;
+    }
+    .use-template .search input{
+        width: auto;
     }
   }
   
@@ -899,7 +916,7 @@ body{
     border-radius: 0;
 }
 .login form button{
-    padding: 10px 50px;
+    padding: 15px 100px;
 }
 .hr-line {
     width: 100%;
@@ -917,6 +934,10 @@ body{
   .login .social-icons img{
     width: 30px;
     height: auto;
+    transition: 0.3s ease;
+  }
+  .login .social-icons img:hover{
+    opacity: 0.6;
   }
   .login .sign-up-now {
     text-decoration: none;
@@ -947,5 +968,31 @@ body{
 }
 
 /* --------------------------------login end------------------------------------ */
+
+
+
+
+
+/* -- ------------------------------customer logos start----------------------------------- -- */
+
+.customer-logos{
+    padding: 70px;
+    background-color: #f5f5f5;
+}
+.customer-logos-carousel img{
+    width: 80px;
+    height: auto;
+}
+@media(max-width: 991px){
+    .customer-logos img{
+        margin: 0 auto;
+        display: block;
+        margin-top: 30px;
+    }
+}
+
+
+
+/* -- ------------------------------customer logos end----------------------------------- -- */
 
 
