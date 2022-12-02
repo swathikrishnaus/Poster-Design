@@ -995,3 +995,111 @@ body{
 /* -- ------------------------------customer logos end----------------------------------- -- */
 
 
+
+
+
+/* --------------------------------faq page start------------------------------------- */
+.faq{
+    margin-top: 100px;
+}
+
+.faq-page{
+    margin-top: 200px;
+}
+.content {
+    width: 80%;
+    padding: 20px;
+    margin: 0 auto;
+    padding: 0 60px 0 0;
+  }
+  .faq a:hover, .faq-page a:hover{
+    color: #62968a;
+  }
+  .faq a, .faq-page a{
+    text-decoration: none;
+  }
+  .centerplease {
+    margin: 0 auto;
+    max-width: 270px;
+    font-size: 40px;
+  }
+  .faq-bg p{
+    color: rgb(134, 128, 128);
+  }
+  .faq-bg{
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding: 30px;
+    margin-bottom: 20px;
+    /* background-color: #e7f3ef; */
+  }
+  .question {
+    color: rgb(134, 128, 128);
+    position: relative;
+    
+    border-bottom: 1px solid #eeeaea;
+    margin: 0;
+    padding: 20px 20px 20px 50px;
+    display: block;
+    width:100%;
+    cursor: pointer;
+  }
+  .question:hover, .question:focus, .question.active{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+  .answers {
+    font-weight:300;
+    border: 1px solid rgb(243, 242, 242);    
+    background-color:rgb(255, 255, 255);
+    padding: 0px 15px;
+    margin: 0px 0;
+    height: 0;
+    overflow: hidden;
+    z-index: -1;
+    position: relative;
+    opacity: 0;
+    -webkit-transition: .7s ease;
+    -moz-transition: .7s ease;
+    -o-transition: .7s ease;
+    transition: .7s ease;
+  }
+  
+  .questions:checked ~ .answers{
+    height: auto;
+    opacity: 1;
+    padding: 15px;
+  }
+  
+  .plus {
+    color: rgb(177, 174, 174);
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 17px;
+    z-index: 5;
+    font-size: 2em;
+    line-height: 100%;
+    -webkit-user-select: none;    
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -o-transition: .3s ease;
+    transition: .3s ease;
+  }
+  
+  .questions:checked ~ .plus {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  
+  .questions {
+    display: none;
+  }
+  
+  
+/* ----------------------------------faq page end---------------------------------------- */
+
